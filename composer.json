@@ -1,0 +1,25 @@
+{
+  "name": "shoppygomarketplacesupplier/shoppygomarketplacesupplier",
+  "description": "ShoppyGo Marketplace Shipping",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "ShoppyGo",
+      "email": "info@shoppygo.io"
+    }
+  ],
+  "type": "prestashop-module",
+  "minimum-stability": "dev",
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "psr-4": {
+      "ShoppyGo\\Marketplace\\Supplier\\": "src/"
+    },
+    "config": {
+      "prepend-autoloader": false
+    }
+  }
+}
